@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Makakalang build artifacts
+*.asm
+*.obj
+*.exe
+!compiler/runtime.asm
+!tools/bin/*.exe
+
+# Test artifacts
+tests/_work/
+
+# OS and editors
+Thumbs.db
+.vscode/
+.idea/
